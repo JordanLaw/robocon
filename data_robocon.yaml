@@ -1,0 +1,15 @@
+names:
+- -B-B-B-
+- -B-B-E-
+- -B-E-E-
+- -B-R-P-
+nc: 4
+roboflow:
+  license: CC BY 4.0
+  project: color-ball-hsv9d
+  url: https://universe.roboflow.com/vtc-sslaa/color-ball-hsv9d/dataset/2
+  version: 2
+  workspace: vtc-sslaa
+test: ../test/images
+train: Color-ball-2/train/images
+val: Color-ball-2/valid/images

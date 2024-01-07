@@ -1,0 +1,12 @@
+names:
+- -basket-
+nc: 1
+roboflow:
+  license: CC BY 4.0
+  project: basket-detection-defu0
+  url: https://universe.roboflow.com/vtc-sslaa/basket-detection-defu0/dataset/1
+  version: 1
+  workspace: vtc-sslaa
+test: ../test/images
+train: basket-detection-1/train/images
+val: basket-detection-1/valid/images
