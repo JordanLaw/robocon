@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "Motor car mini project",
+			"path": "../../../../Motor car mini project"
+		},
+		{
+			"name": "mini-project",
+			"path": "../../../../mini-project"
+		},
+		{
+			"name": "i2c_scan",
+			"path": "C:/Users/jorda/Documents/PlatformIO/Projects/i2c_scan"
+		}
+	],
+	"settings": {}
+}
