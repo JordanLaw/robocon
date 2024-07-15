@@ -1,5 +1,9 @@
 # VESC tutorial
 
+## Setting-up
+
+
+
 ## Wizards for setting up motor FOC
 
 Click the “Welcome & Wizards” button and the “Setup Motors FOC” button
@@ -48,5 +52,11 @@ After you fill up all the parameter, you can start the detection by clicking the
 
 ### Limitation of RPM:
 ![image](https://github.com/user-attachments/assets/babe1197-cf98-4f58-89ba-92a9e923b3e3)
+
+## Can bus communication
+
+## STM32 borad coding
+
+
 
 
