@@ -42,15 +42,30 @@ After you fill up all the parameter, you can start the detection by clicking the
 
 <img src="photo/08.png" width="800"><br><br>
 
+## Sensorless motor setting up
+
+In case, you don't have a encoder for your motor
+
 ## Motor Setting
 
 ### Motor Detection:
+
+if the direction of your wheel is not correct, you can revert the direction of the motor in this tab. (True or False)
+
 ![image](https://github.com/user-attachments/assets/2bb080ff-9b88-4968-8af3-7ea9add9afe9)
 
 ### Current:
+
+You can limit the max current of the motor driver put in order to avoid overcurrent. if you have already done the wizards of the setting-up motor FOC, you may not need to change this value because it have already calculate the max current of the motor can afford. However, you can still set a lower maximum current in this tab.
+
+Also, there is a value called Absolute Maximum Current which means that if the current over this value, it will stop the motor immediately and print a fault message in the VESC terminal.
+
 ![image](https://github.com/user-attachments/assets/c4ecd47d-9f74-46d3-b212-9f44737cd61b)
 
 ### Limitation of RPM:
+
+You can set a limitation of ERPM of the motor, if you command a ERPM over this amount, the motor driver will only call the limited amount in stead of the amount you command.
+
 ![image](https://github.com/user-attachments/assets/babe1197-cf98-4f58-89ba-92a9e923b3e3)
 
 ## Can bus communication
