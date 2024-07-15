@@ -12,7 +12,7 @@ At the beginning, it will ask you to restore the motor drive into default settin
 
 You can choose the usage type of your motor depend on how you will rub your motor. this time we will choose “Generic”.
 
-<img src="photo/03.png" width="1200"><br><br>
+<img src="photo/03.png" width="800"><br><br>
 
 Then, you need to choose the size or type of your motor. Usually, we are using “Small Outrunner (~200 g)”, it depends on what kind of motor you are using. 
 
