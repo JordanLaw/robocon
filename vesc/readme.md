@@ -39,6 +39,5 @@ After you fill up all the parameter, you can start the detection by clicking the
 <img src="photo/08.png" width="800"><br><br>
 
 ## Motor Setting
-
-###　Motor Direction:
+###Motor Direction
 ![image](https://github.com/user-attachments/assets/2bb080ff-9b88-4968-8af3-7ea9add9afe9)
