@@ -8,7 +8,7 @@ Click the “Welcome & Wizards” button and the “Setup Motors FOC” button
 
 At the beginning, it will ask you to restore the motor drive into default setting, please choose “NO” if you have already calculated the motor drive before. If you click “YES”, you will need to configure all the Motor Setting and App Setting one more time.
 
-<img src="photo/02.png" width="1200"><br><br>
+<img src="photo/02.png" width="800"><br><br>
 
 You can choose the usage type of your motor depend on how you will rub your motor. this time we will choose “Generic”.
 
