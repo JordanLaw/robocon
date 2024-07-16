@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/5a16da56-48b8-4b2d-94da-742cfc74a03e)# VESC tutorial
 
 ## Setting-up
 
