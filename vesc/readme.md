@@ -84,6 +84,13 @@ You can set a limitation of ERPM of the motor, if you command a ERPM over this a
 
 <img src="photo/12.png" width="800"><br><br>
 
+## Fault / Error
+
+if the light color of the VESC turned from green to red, that means that there is something error in the process f running the motor. In order to watch the fault or error, you can go to VESC to check the problem.
+
+<img src="photo/fault0.png" width="800"><br><br>
+<img src="photo/print_fault1.png" width="800"><br><br>
+
 ## Can bus communication
 
 ## STM32 borad coding
