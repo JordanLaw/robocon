@@ -42,6 +42,10 @@ After you fill up all the parameter, you can start the detection by clicking the
 
 <img src="photo/08.png" width="800"><br><br>
 
+A window will pop up and show you all the motor status, you can still change the value if you are not happy with that in the "FOC" tab.
+
+<img src="photo/13.png" width="800"><br><br>
+
 ## Sensorless motor setting up
 
 In case, you don't have a encoder for your motor, you can configure your motor from "Sensorless" tab in the "FOC".
@@ -58,7 +62,7 @@ Also, you can set a longer time for the "Openloop Ramp Time" which can avoid lag
 
 if the direction of your wheel is not correct, you can revert the direction of the motor in this tab. (True or False)
 
-![image](https://github.com/user-attachments/assets/2bb080ff-9b88-4968-8af3-7ea9add9afe9)
+<img src="photo/11.png" width="800"><br><br>
 
 ### Current:
 
@@ -66,13 +70,13 @@ You can limit the max current of the motor driver put in order to avoid overcurr
 
 Also, there is a value called Absolute Maximum Current which means that if the current over this value, it will stop the motor immediately and print a fault message in the VESC terminal.
 
-![image](https://github.com/user-attachments/assets/c4ecd47d-9f74-46d3-b212-9f44737cd61b)
+<img src="photo/10.png" width="800"><br><br>
 
 ### Limitation of RPM:
 
 You can set a limitation of ERPM of the motor, if you command a ERPM over this amount, the motor driver will only call the limited amount in stead of the amount you command.
 
-![image](https://github.com/user-attachments/assets/babe1197-cf98-4f58-89ba-92a9e923b3e3)
+<img src="photo/12.png" width="800"><br><br>
 
 ## Can bus communication
 
