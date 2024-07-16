@@ -44,7 +44,13 @@ After you fill up all the parameter, you can start the detection by clicking the
 
 ## Sensorless motor setting up
 
-In case, you don't have a encoder for your motor
+In case, you don't have a encoder for your motor, you can configure your motor from "Sensorless" tab in the "FOC".
+
+Normally, you need to change a higher "Openloop ERPM" in order to start the motor in the senorless mode. (example: 12,000). You can change the value depand on the type of your motor.
+Also, you can set a longer time for the "Openloop Ramp Time" which can avoid lagging at the beginning.
+
+<img src="photo/09.png" width="800"><br><br>
+
 
 ## Motor Setting
 
