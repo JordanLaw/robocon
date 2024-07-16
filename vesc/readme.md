@@ -1,4 +1,4 @@
-# VESC tutorial
+![image](https://github.com/user-attachments/assets/5a16da56-48b8-4b2d-94da-742cfc74a03e)# VESC tutorial
 
 ## Setting-up
 
@@ -49,6 +49,7 @@ After you fill up all the parameter, you can start the detection by clicking the
 
 A window will pop up and show you all the motor status, you can still change the value if you are not happy with that in the "FOC" tab.
 
+<img src="photo/finish_page.png" width="800"><br><br>
 <img src="photo/13.png" width="800"><br><br>
 
 ### Sensorless motor setting up
