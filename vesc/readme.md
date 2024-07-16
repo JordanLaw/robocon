@@ -2,9 +2,10 @@
 
 ## Setting-up
 
-<img src="photo/setting_up.png" width="1200"><br><br>
+It is an example of a connection with VESC and motor.
 
-<img src="photo/setting_up2.jpeg" width="1200"><br><br>
+<img src="photo/setting_up.png" width="1200"><br><br>
+<img src="photo/setting_up2.JPEG" width="600"><br><br>
 
 ## Wizards for setting up motor FOC
 
