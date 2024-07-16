@@ -2,9 +2,14 @@
 
 ## Setting-up
 
+It is an example of a connection with VESC and motor.
 
+<img src="photo/setting_up.png" width="1200"><br><br>
+<img src="photo/setting_up2.JPEG" width="600"><br><br>
 
-## Wizards for setting up motor FOC
+## Getting start
+
+### Wizards for setting up motor FOC
 
 Click the “Welcome & Wizards” button and the “Setup Motors FOC” button
 
@@ -46,7 +51,7 @@ A window will pop up and show you all the motor status, you can still change the
 
 <img src="photo/13.png" width="800"><br><br>
 
-## Sensorless motor setting up
+### Sensorless motor setting up
 
 In case, you don't have a encoder for your motor, you can configure your motor from "Sensorless" tab in the "FOC".
 
