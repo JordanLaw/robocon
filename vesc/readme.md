@@ -86,10 +86,17 @@ You can set a limitation of ERPM of the motor, if you command a ERPM over this a
 
 ## Fault / Error
 
-if the light color of the VESC turned from green to red, that means that there is something error in the process f running the motor. In order to watch the fault or error, you can go to VESC to check the problem.
+if the light color of the VESC turned from green to red, that means that there is something error in the process f running the motor. In order to watch the fault or error, you can go to VESC to check the problem. (if you are connecting the VESC, you can find that a warning which show the name of the error will pop up on the right-bottom of the window)
 
 <img src="photo/fault0.png" width="800"><br><br>
 <img src="photo/print_fault1.png" width="800"><br><br>
+
+if you want to find out the details of the error, there is a tab which called "Print Faults" in the "Terminal" tab. by clicking this, you can find out the details of the error. 
+
+For example, "FAULT_CODE_ABS_OVER_CURRENT" existed, it means that when you were controlling the motor, there was a over-current and the VESC cut the current immediately. To solve the problem, you may need to either set a higher value of max absolute current limiation or stop the e-stop function and report only in the VESC (not recommended).
+
+<img src="photo/print_fault.png" width="800"><br><br>
+<img src="photo/print_fault2.png" width="800"><br><br>
 
 ## Can bus communication
 
