@@ -5,7 +5,7 @@
 You can find the VESC software in the repositories (path: [VESC_tool_6.02](https://github.com/JordanLaw/robocon/tree/9d138ca345b671d4a66e2e8c82a524e70ce1fe27/vesc)). Or you can download VESC Tool from [VESC Project Website](https://vesc-project.com/vesc_tool) (You need to create an account)
 
 <img src="photo/github_vesc.png" width="1000"><br><br>
-<img src="photo/vesc_tool-free.png" width="600"><br><br>
+<img src="photo/vesc_tool-free.png" width="800"><br><br>
 
 ## Setting-up
 
