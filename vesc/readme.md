@@ -1,5 +1,9 @@
 # VESC
 
+## Software
+
+You can find the VESC software in the repositories (path: [VESC_tool_6.02](https://github.com/JordanLaw/robocon/tree/9d138ca345b671d4a66e2e8c82a524e70ce1fe27/vesc))
+
 ## Setting-up
 
 It is an example of a connection with VESC and motor.
