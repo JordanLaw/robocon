@@ -78,8 +78,8 @@ A window will pop up and show you all the motor status, you can still change the
 
 Now, you can test the calibration of the motor is well or not. To control the motor using VESC, you need to enbale keyboard control by clicking the tab on the right hand side. Also, you can review the realtime data by clicking the tab below the keyboard control tab. After you enable the keyboard, you can use Arrow keys to control the motoe spin.
 
-Up and Down arrow key -> current control
-Right and Left arrow key -> duty control
+Up and Down arrow key -> current control<br>
+Right and Left arrow key -> duty control<br>
 
 <img src="photo/enable_1.png" width="800"><br><br>
 
