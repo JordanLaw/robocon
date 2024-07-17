@@ -16,7 +16,7 @@ It is an example of a connection with VESC and motor.
 
 ## Getting start
 
-### Wizards for setting up motor FOC
+### Calibration: Wizards for setting up motor FOC
 
 Click the “Welcome & Wizards” button and the “Setup Motors FOC” button
 
