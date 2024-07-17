@@ -74,11 +74,24 @@ A window will pop up and show you all the motor status, you can still change the
 <img src="photo/finish_page.png" width="800"><br><br>
 <img src="photo/13.png" width="800"><br><br>
 
-### Test the calibration
+### Test the calibration or run the motor with VESC
 
 Now, you can test the calibration of the motor is well or not. To control the motor using VESC, you need to enbale keyboard control by clicking the tab on the right hand side. Also, you can review the realtime data by clicking the tab below the keyboard control tab. After you enable the keyboard, you can use Arrow keys to control the motoe spin.
 
+Up and Down arrow key -> current control
+Right and Left arrow key -> duty control
+
 <img src="photo/enable_1.png" width="800"><br><br>
+
+Also, you can use the command platform at the bottom of the VESC app.
+1. Duty control - control the speed of the motor based on the percentage of voltage you set
+2. Current control - control the speed of the motor based on the current you set
+3. RPM control - control the speed of the motor based on the RPM you set, it need to adjust the PID parameter in order t have a well performance
+4. Postion control - turn the motor directon into required angle, need to adjust the PID parameter as RPM control
+5. Full break
+6. Switch off
+
+<img src="photo/vesc_control.png" width="1200"><br><br>
 
 if you want to review the realtime status of your motor, you can click the "Realtime Data" tab on the left hand side in the app. There are few things you can review, Current put into the motor, the temperature of VESC, RPM of your motor, the position of your motor (if you have encoder).
 
