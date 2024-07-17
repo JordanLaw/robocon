@@ -129,6 +129,17 @@ You can set a limitation of ERPM of the motor, if you command a ERPM over this a
 
 <img src="photo/12.png" width="800"><br><br>
 
+### PID control setting
+
+1. RPM PID contorl - when you are using ERPM value to control the motor, you need to adjust the speed kp, ki and kd in order to optimize the performance.
+2. Minimum ERPM - VESC will ignore all the ERPM control command under this value
+3. Ramp ERPM per second - acceleration of your motor
+4. Position PID control - when you are control your motor to turn to specific angle, you need to adjust the position kp, ki and kd in order to optimize the performance.
+5. Position Angle Division - Angle division for the position controller. Can be used to map one control rotation to several motor rotations.
+6. Angle off-set - Angle offset for the position controller.
+
+<img src="photo/PID_control.png" width="1200"><br><br>
+
 ## Fault / Error
 
 if the light color of the VESC turned from green to red, that means that there is something error in the process f running the motor. In order to watch the fault or error, you can go to VESC to check the problem. (if you are connecting the VESC, you can find that a warning which show the name of the error will pop up on the right-bottom of the window)
