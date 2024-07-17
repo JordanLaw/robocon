@@ -42,6 +42,21 @@ Next, you need to choose the right parameter which fix to your battery. If depen
 
 <img src="photo/06.png" width="800"><br><br>
 
+Below figures are example, it show how to know the number of cells series.
+
+1. Check the label on the packet. "P" part means Parallel. The "S" part means "Series". "6S1P" means 6 cells in serises, 1 parallel. Therefore, we should type 6 in the box.
+
+!!!!!! Warning !!!!!!<br>
+Don't mxied up the "Series" and "Parallel", you should type the number of "Series".<br>
+Otherwise it may damage the vesc, motor and battery
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+<img src="photo/battery_1.jpeg" width="800"><br><br>
+
+2. Count number of the packet number.
+
+<img src="photo/battery_2.jpeg" width="800"><br><br>
+
 Warning will pop up to remind you if the type of the battery is wrong, the battery will be destroyed. So, make sure the type of the battery is correct before you click “YES”.
 
 <img src="photo/07.png" width="800"><br><br>
