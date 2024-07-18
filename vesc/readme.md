@@ -11,10 +11,10 @@
 
 4. [Motor Setting](#motorsettng)
 
-   i. [Motor Detection](#motordetect)
-   ii. [Current](#current)
-   iii. [RPM](#rpm)
-   iv. [PID control setting](#PID)
+   i. [Motor Detection](#motordetect)<br>
+   ii. [Current](#current)<br>
+   iii. [RPM](#rpm)<br>
+   iv. [PID control setting](#PID)<br>
 
 5. [Fault / Error](#error)
 6. [Can bus communication](#can)
