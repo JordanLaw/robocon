@@ -230,6 +230,7 @@ So we can't use the can bus channel in the our MCU, we nned to use SPI channel t
 
 ## STM32 borad coding <a name="stm32"></a>
 
+To use STM32 MCU board to control the VESC through Can bus channel, you need to download the library and put them into your project (path: [VESC_resourse](https://github.com/JordanLaw/robocon/tree/9d138ca345b671d4a66e2e8c82a524e70ce1fe27/vesc)).
 
 
 
