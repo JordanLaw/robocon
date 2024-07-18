@@ -3,6 +3,12 @@
 # Index
 1. [Software](#software)
 2. [Setting-up](#set)
+3. [Getting start](#start)
+   i. [Calibration: Wizards for setting up motor FOC](#calibration)
+   ii. [Test the calibration or run the motor with VESC](#test)
+5. 
+
+
 
 
 ## Software <a name="software"></a>
@@ -19,9 +25,9 @@ It is an example of a connection with VESC and motor.
 <img src="photo/setting_up.png" width="1200"><br><br>
 <img src="photo/setting_up2.JPEG" width="600"><br><br>
 
-## Getting start
+## Getting start <a name="start"></a>
 
-### Calibration: Wizards for setting up motor FOC
+### Calibration: Wizards for setting up motor FOC <a name="calibration"></a>
 
 Click the “Welcome & Wizards” button and the “Setup Motors FOC” button
 
@@ -79,7 +85,7 @@ A window will pop up and show you all the motor status, you can still change the
 <img src="photo/finish_page.png" width="800"><br><br>
 <img src="photo/13.png" width="800"><br><br>
 
-### Test the calibration or run the motor with VESC
+### Test the calibration or run the motor with VESC <a name="test"></a>
 
 Now, you can test the calibration of the motor is well or not. To control the motor using VESC, you need to enbale keyboard control by clicking the tab on the right hand side. Also, you can review the realtime data by clicking the tab below the keyboard control tab. After you enable the keyboard, you can use Arrow keys to control the motoe spin.
 
