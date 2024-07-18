@@ -14,7 +14,7 @@
    i. [Motor Detection](#motordetect)<br>
    ii. [Current](#current)<br>
    iii. [RPM](#rpm)<br>
-   iv. [PID control setting](#PID)<br>
+   iv. [PID control setting](#pid)<br>
 
 5. [Fault / Error](#error)
 6. [Can bus communication](#can)
@@ -154,7 +154,7 @@ You can set a limitation of ERPM of the motor, if you command a ERPM over this a
 
 <img src="photo/12.png" width="800"><br><br>
 
-### PID control setting <a name="PID"></a>
+### PID control setting <a name="pid"></a>
 
 A proportional–integral–derivative controller (PID controller or three-term controller) is a control loop mechanism employing feedback that is widely used in industrial control systems and a variety of other applications requiring continuously modulated control. A PID controller continuously calculates an error value 𝑒(𝑡) as the difference between a desired setpoint (SP) and a measured process variable (PV) and applies a correction based on proportional, integral, and derivative terms (denoted P, I, and D respectively), hence the name.
 
