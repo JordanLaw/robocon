@@ -220,8 +220,8 @@ In contrast to conventional networks like USB or Ethernet, CAN operates differen
 
 <img src="photo/Can_bus_01.png" width="800"><br><br>
 
-In this sample, we will use Nucleo F446RE which one of the MCU board from STM32 to connect to our VESC and control them by sending command through CAN bus channel.<br>
-Because of the can bus function in the mbed library which we will use in our MCU has bugs, the can bus channel will be reseted when the forth message sent and this message will be disappear within teh can bus channel.<br>
+In this sample, we will use Nucleo F446RE which one of the MCU board from STM32 to connect to our VESC and control them by sending command through CAN bus channel.<br><br>
+Because of the can bus function in the mbed library which we will use in our MCU has bugs, the can bus channel will be reseted when the forth message sent and this message will be disappear within teh can bus channel.<br><br>
 So we can't use the can bus channel in the our MCU, we nned to use SPI channel to send the message to MCP2515 and use it to send the message thrugh Can bus channel to our VESC.
 
 <img src="photo/Can_setting02.JPEG" width="800"><br><br>
