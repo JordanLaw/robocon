@@ -1,29 +1,29 @@
 # VESC
 
 # Index
-1. [Software](#software)
-2. [Setting-up](#set)
-3. [Getting start](#start)
+1. [What is VESC?](#vsec)
+2. [Software](#software)
+3. [Setting-up](#set)
+4. [Getting start](#start)
 
    i. [Calibration: Wizards for setting up motor FOC](#calibration)<br>
    ii. [Test the calibration or run the motor with VESC](#test)<br>
    iii. [Sensorless motor setting up](#sensorless)
 
-4. [Motor Setting](#motorsettng)
+5. [Motor Setting](#motorsettng)
 
    i. [Motor Detection](#motordetect)<br>
    ii. [Current](#current)<br>
    iii. [RPM](#rpm)<br>
    iv. [PID control setting](#pid)<br>
 
-5. [Fault / Error](#error)
-6. [Can bus communication](#can)
-7. [STM32 borad coding](#stm32)
+6. [Fault / Error](#error)
+7. [Can bus communication](#can)
+8. [STM32 borad coding](#stm32)
 
+## What is VESC? <a name="vesc"></a>
 
-
-
-
+VESC stands for Vedder Electronic Speed Controller, which is a type of electronic speed controller (ESC) commonly used in electric vehicles, electric skateboards, and other electric motor applications.
 
 ## Software <a name="software"></a>
 
@@ -213,6 +213,10 @@ For example, "FAULT_CODE_ABS_OVER_CURRENT" existed, it means that when you were 
 <img src="photo/print_fault2.png" width="800"><br><br>
 
 ## Can bus communication <a name="can"></a>
+
+In this sample, we will use Nucleo F446RE which one of the MCU board from STM32 to connect to our VESC and control them by sending command through CAN bus channel.
+
+
 
 ## STM32 borad coding <a name="stm32"></a>
 
