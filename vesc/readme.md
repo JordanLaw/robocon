@@ -120,7 +120,7 @@ Also, you can use the command platform at the bottom of the VESC app.
 
 if you want to review the realtime status of your motor, you can click the "Realtime Data" tab on the left hand side in the app. There are few things you can review, Current put into the motor, the temperature of VESC, RPM of your motor, the position of your motor (if you have encoder).
 
-<img src="photo/enable_2.png" width="800"><br><br>
+<img src="photo/enable_2.png" width="1500"><br><br>
 
 ### Sensorless motor setting up <a name="sensorless"></a>
 
