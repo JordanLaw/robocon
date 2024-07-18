@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../../../testing5"
+		},
+		{
+			"name": "Testing_mcp2515_mbed",
+			"path": "../../../.."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"mstd_atomic": "cpp",
+			"mstd_iterator": "cpp",
+			"array": "cpp",
+			"string": "cpp",
+			"string_view": "cpp"
+		}
+	}
+}
