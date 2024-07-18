@@ -216,8 +216,8 @@ For example, "FAULT_CODE_ABS_OVER_CURRENT" existed, it means that when you were 
 
 In this sample, we will use Nucleo F446RE which one of the MCU board from STM32 to connect to our VESC and control them by sending command through CAN bus channel.
 
-<img src="photo/Can_setting01.JPEG" width="800"><br><br>
 <img src="photo/Can_setting02.JPEG" width="800"><br><br>
+<img src="photo/Can_setting01.JPEG" width="800"><br><br>
 
 ## STM32 borad coding <a name="stm32"></a>
 
