@@ -131,6 +131,26 @@ You can set a limitation of ERPM of the motor, if you command a ERPM over this a
 
 ### PID control setting
 
+A proportional–integral–derivative controller (PID controller or three-term controller) is a control loop mechanism employing feedback that is widely used in industrial control systems and a variety of other applications requiring continuously modulated control. A PID controller continuously calculates an error value 𝑒(𝑡) as the difference between a desired setpoint (SP) and a measured process variable (PV) and applies a correction based on proportional, integral, and derivative terms (denoted P, I, and D respectively), hence the name.
+
+Proportional (P) control: This component adjusts the output of the process based on the current error between the setpoint and the process variable (PV). The larger the error, the larger the correction applied.
+
+<img src="photo/PID_P.png" width="150"><br>
+
+Integral (I) control: This component adjusts the output based on the accumulated error over time. It helps eliminate steady-state error and can improve the stability of the control system.
+
+<img src="photo/PID_I.png" width="180"><br>
+
+Derivative (D) control: This component adjusts the output based on the rate of change of the error. It helps to dampen oscillations and improve the stability of the control system but is often omitted because PI control is sufficient. The derivative term can amplify measurement noise (random fluctuations) and cause excessive output changes. Filters are important to get a better estimate of the process variable rate of change.
+
+<img src="photo/PID_D.png" width="250"><br>
+
+So, all together the output will be:
+
+<img src="photo/PID_PID.png" width="350"><br>
+
+In VESC, there is a place that you can tune the PID controller of your motor. On the left hand side of the window, there is a tab called "PID controllers".
+
 1. RPM PID contorl - when you are using ERPM value to control the motor, you need to adjust the speed kp, ki and kd in order to optimize the performance.
 2. Minimum ERPM - VESC will ignore all the ERPM control command under this value
 3. Ramp ERPM per second - acceleration of your motor
