@@ -234,6 +234,59 @@ To use STM32 MCU board to control the VESC through Can bus channel, you need to 
 
 <img src="photo/vesc_lib.png" width="1300"><br><br>
 
+Then, you can copy and upload the sample code below into the STM32 board, and try to command the motor using STM32 board.<br>
+The sample code will send a command to VESC and control the motor spin 90 degrees when you press the blue button.
+
+```c
+#include "mbed.h"
+#include "CAN3.h"
+#include "vesc.h"
+
+#define CAN_MSG_ID_1  0x111
+#define CAN_MSG_ID_2  0x222
+
+#define CAN_MSG_DATA_1  ""
+#define CAN_MSG_DATA_2  "CAN message 2"
+
+// 1 -> f446re, 0 -> f446ZE
+#define BOARD 1
+
+#if BOARD == 1
+    SPI spi(PA_7, PA_6, PA_5);
+    CAN can2(PA_11, PA_12, 1000000);  //rd, td, hz
+    CAN3 can(spi, PA_4);
+
+    DigitalOut home1(PC_12);
+    DigitalOut home2(PC_11);
+
+#else
+    SPI spi(PA_7, PA_6, PA_5);
+    CAN can2(PA_11, PA_12, 1000000);  //rd, td, hz
+    CAN3 can(spi, PB_6);
+
+#endif
+
+DigitalIn userbutton(PC_13);
+vesc dir46(46, &can, 1000000, Motor_type::m3508);
+
+int main(){
+   can.frequency(CAN_1MBPS_8MHZ);
+
+   while(1){
+        if (!userbutton){
+            dir46.comm_can_set_pos(90);
+        }
+        else{
+            dir46.comm_can_set_pos(0);
+        }
+
+        wait_us(10);
+   }
+
+}
+
+```
+
 
 
 
