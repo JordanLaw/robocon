@@ -149,6 +149,12 @@ So, all together the output will be:
 
 <img src="photo/PID_PID.png" width="350"><br>
 
+For example, there is the difference between before and after PID controller tuned.
+
+After:
+<img src="photo/PID_value_after_tuning.png" width="1200">
+<img src="photo/PID_plot01.png" width="1200">
+
 In VESC, there is a place that you can tune the PID controller of your motor. On the left hand side of the window, there is a tab called "PID controllers".
 
 1. RPM PID contorl - when you are using ERPM value to control the motor, you need to adjust the speed kp, ki and kd in order to optimize the performance.
