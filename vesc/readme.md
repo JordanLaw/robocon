@@ -214,6 +214,12 @@ For example, "FAULT_CODE_ABS_OVER_CURRENT" existed, it means that when you were 
 
 ## Can bus communication <a name="can"></a>
 
+Control Area Network (CAN) bus is a serial communication protocol that allows devices to exchange data in a reliable and efficient way. It is widely used in vehicles, working like a nervous system to connect ECUs in the vehicle.
+
+In contrast to conventional networks like USB or Ethernet, CAN operates differently by not transmitting large blocks of data point-to-point from node A to node B under the control of a central bus master. Instead, in a CAN network, brief messages are broadcasted to the entire network, ensuring uniform data consistency across every node within the system.
+
+<img src="photo/Can_bus_01.png" width="800"><br><br>
+
 In this sample, we will use Nucleo F446RE which one of the MCU board from STM32 to connect to our VESC and control them by sending command through CAN bus channel.
 
 <img src="photo/Can_setting02.JPEG" width="800"><br><br>
