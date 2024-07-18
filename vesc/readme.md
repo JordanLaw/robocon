@@ -10,8 +10,15 @@
    iii. [Sensorless motor setting up](#sensorless)
 
 4. [Motor Setting](#motorsettng)
-5. 
-6. 
+
+   i. [Motor Detection](#motordetect)
+   ii. [Current](#current)
+   iii. [RPM](#rpm)
+   iv. [PID control setting](#PID)
+
+5. [Fault / Error](#error)
+6. [Can bus communication](#can)
+7. [STM32 borad coding](#stm32)
 
 
 
@@ -127,13 +134,13 @@ Also, you can set a longer time for the "Openloop Ramp Time" which can avoid lag
 
 ## Motor Setting <a name="motorsettng"></a>
 
-### Motor Detection:
+### Motor Detection <a name="motordetect"></a>
 
 if the direction of your wheel is not correct, you can revert the direction of the motor in this tab. (True or False)
 
 <img src="photo/11.png" width="800"><br><br>
 
-### Current:
+### Current <a name="current"></a>
 
 You can limit the max current of the motor driver put in order to avoid overcurrent. if you have already done the wizards of the setting-up motor FOC, you may not need to change this value because it have already calculate the max current of the motor can afford. However, you can still set a lower maximum current in this tab.
 
@@ -141,13 +148,13 @@ Also, there is a value called Absolute Maximum Current which means that if the c
 
 <img src="photo/10.png" width="800"><br><br>
 
-### Limitation of RPM:
+### RPM <a name="rpm"></a>
 
 You can set a limitation of ERPM of the motor, if you command a ERPM over this amount, the motor driver will only call the limited amount in stead of the amount you command.
 
 <img src="photo/12.png" width="800"><br><br>
 
-### PID control setting
+### PID control setting <a name="PID"></a>
 
 A proportional–integral–derivative controller (PID controller or three-term controller) is a control loop mechanism employing feedback that is widely used in industrial control systems and a variety of other applications requiring continuously modulated control. A PID controller continuously calculates an error value 𝑒(𝑡) as the difference between a desired setpoint (SP) and a measured process variable (PV) and applies a correction based on proportional, integral, and derivative terms (denoted P, I, and D respectively), hence the name.
 
@@ -191,7 +198,7 @@ In VESC, there is a place that you can tune the PID controller of your motor. On
 
 <img src="photo/PID_control.png" width="1200"><br><br>
 
-## Fault / Error
+## Fault / Error <a name="error"></a>
 
 if the light color of the VESC turned from green to red, that means that there is something error in the process f running the motor. In order to watch the fault or error, you can go to VESC to check the problem. (if you are connecting the VESC, you can find that a warning which show the name of the error will pop up on the right-bottom of the window)
 
@@ -205,9 +212,9 @@ For example, "FAULT_CODE_ABS_OVER_CURRENT" existed, it means that when you were 
 <img src="photo/print_fault.png" width="800"><br><br>
 <img src="photo/print_fault2.png" width="800"><br><br>
 
-## Can bus communication
+## Can bus communication <a name="can"></a>
 
-## STM32 borad coding
+## STM32 borad coding <a name="stm32"></a>
 
 
 
