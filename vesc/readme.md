@@ -92,11 +92,11 @@ Next, For the Gear ratio and the Wheel Diameter, it is just for the log analysis
 
 For the Motor Poles, please refer what kind of motor you are using, there should be a number of motor poles shown on that motor datasheet. (example:M3058 motor has 14 poles)
 
-After you fill up all the parameter, you can start the detection by clicking the “RUN DETECTION”
+After you fill up all the parameter, you can start the detection by clicking the “RUN DETECTION” and it will start to calibrate the motor. Then you need to wait until the calibration process finished.
 
 <img src="photo/08.png" width="800"><br><br>
 
-A window will pop up and show you all the motor status, you can still change the value if you are not happy with that in the "FOC" tab.
+A window will pop up and show you all the motor status after the completion of the calibration, you can still change the value if you are not happy with that in the "FOC" tab.
 
 <img src="photo/finish_page.png" width="800"><br><br>
 <img src="photo/13.png" width="800"><br><br>
