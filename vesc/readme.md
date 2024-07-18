@@ -4,9 +4,14 @@
 1. [Software](#software)
 2. [Setting-up](#set)
 3. [Getting start](#start)
-   i. [Calibration: Wizards for setting up motor FOC](#calibration)
-   ii. [Test the calibration or run the motor with VESC](#test)
+
+   i. [Calibration: Wizards for setting up motor FOC](#calibration)<br>
+   ii. [Test the calibration or run the motor with VESC](#test)<br>
+
+4. 
 5. 
+
+
 
 
 
