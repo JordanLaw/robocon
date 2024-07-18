@@ -7,9 +7,11 @@
 
    i. [Calibration: Wizards for setting up motor FOC](#calibration)<br>
    ii. [Test the calibration or run the motor with VESC](#test)<br>
+   iii. [Sensorless motor setting up](#sensorless)
 
-4. 
+4. [Motor Setting](#motorsettng)
 5. 
+6. 
 
 
 
@@ -113,7 +115,7 @@ if you want to review the realtime status of your motor, you can click the "Real
 
 <img src="photo/enable_2.png" width="800"><br><br>
 
-### Sensorless motor setting up
+### Sensorless motor setting up <a name="sensorless"></a>
 
 In case, you don't have a encoder for your motor, you can configure your motor from "Sensorless" tab in the "FOC".
 
@@ -123,7 +125,7 @@ Also, you can set a longer time for the "Openloop Ramp Time" which can avoid lag
 <img src="photo/09.png" width="800"><br><br>
 
 
-## Motor Setting
+## Motor Setting <a name="motorsettng"></a>
 
 ### Motor Detection:
 
