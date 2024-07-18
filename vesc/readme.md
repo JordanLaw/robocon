@@ -1,7 +1,7 @@
 # VESC
 
 # Index
-1. [What is VESC?](#vsec)
+1. [What is VESC?](#vesc)
 2. [Software](#software)
 3. [Setting-up](#set)
 4. [Getting start](#start)
