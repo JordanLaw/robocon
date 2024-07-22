@@ -126,7 +126,7 @@ if you want to review the realtime status of your motor, you can click the "Real
 
 ### Sensorless motor setting up <a name="sensorless"></a>
 
-In case, you don't have a encoder for your motor, you can configure your motor from "Sensorless" tab in the "FOC".
+In case, you don't have a encoder for your motor, you can configure your motor from "Sensorless" tab in the "FOC". However, you still need to calibrate your motor first before you configure the data in this tab.
 
 Normally, you need to change a higher "Openloop ERPM" in order to start the motor in the senorless mode. (example: 12,000). You can change the value depand on the type of your motor.
 Also, you can set a longer time for the "Openloop Ramp Time" which can avoid lagging at the beginning.
