@@ -202,7 +202,7 @@ In VESC, there is a place that you can tune the PID controller of your motor. On
 
 ## Fault / Error <a name="error"></a>
 
-if the light color of the VESC turned from green to red, that means that there is something error in the process f running the motor. In order to watch the fault or error, you can go to VESC to check the problem. (if you are connecting the VESC, you can find that a warning which show the name of the error will pop up on the right-bottom of the window)
+if the light color of the VESC turned from green to red, that means that there is something error in the process of running the motor. In order to watch the fault or error, you can go to VESC to check the problem. (if you are connecting the VESC, you can find that a warning which show the name of the error will pop up on the right-bottom of the window)
 
 <img src="photo/fault0.png" width="800"><br><br>
 <img src="photo/print_fault1.png" width="800"><br><br>
