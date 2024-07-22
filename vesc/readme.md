@@ -47,7 +47,7 @@ Click the “Welcome & Wizards” button and the “Setup Motors FOC” button
 
 <img src="photo/01.png" width="1200"><br><br>
 
-At the beginning, it will ask you to restore the motor drive into default setting, please choose “NO” if you have already calibrated the motor drive before. If you click “YES”, you will need to configure all the Motor Setting and App Setting one more time.
+At the beginning, it will ask you to restore the motor drive into default setting, please choose “NO” if you have already calibrated the motor drive before. If you click “YES”, you will need to configure all the Motor Setting and App Setting again.
 
 <img src="photo/02.png" width="600"><br><br>
 
