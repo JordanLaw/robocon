@@ -51,7 +51,7 @@ At the beginning, it will ask you to restore the motor drive into default settin
 
 <img src="photo/02.png" width="600"><br><br>
 
-You can choose the usage type of your motor depend on how you will rub your motor. this time we will choose “Generic”.
+You can choose the usage type of your motor depend on how will you run your motor. this time we will choose “Generic”.
 
 <img src="photo/03.png" width="800"><br><br>
 
