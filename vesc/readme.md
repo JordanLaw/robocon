@@ -82,7 +82,7 @@ Otherwise it may damage the vesc, motor and battery
 
 <img src="photo/battery_2.jpeg" width="800"><br><br>
 
-So in this case, you need to choose "BATTERY_TYPE_LIION_3.0__4.2" as Battery Type, type "6" in the Battery Cells Series and type 3.2 in the Battery Capacity.
+So in this case, you need to choose "BATTERY_TYPE_LIION_3.0__4.2" as Battery Type, type "6" in the Battery Cells Series and type 3.2 in the Battery Capacity. After that, you can click "Next" and go to net step.
 
 Warning will pop up to remind you if the type of the battery is wrong, the battery will be destroyed. So, make sure the type of the battery is correct before you click “YES”.
 
