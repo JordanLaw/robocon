@@ -90,7 +90,7 @@ Warning will pop up to remind you if the type of the battery is wrong, the batte
 
 Next, For the Gear ratio and the Wheel Diameter, it is just for the log analysis (not sure). If you are not using the data provided from the VESC, you can click Direct Drive and use the default Wheel Diameter.
 
-For the Motor Poles, please refer what kind of motor you are using, there should be a number of motor poles shown on that motor datasheet. (example:M3058 motor has 14 poles)
+For the Motor Poles, please refer what kind of motor you are using, there should be a number of motor poles shown on that motor datasheet. (example: M3058 motor has 14 poles)
 
 After you fill up all the parameter, you can start the detection by clicking the “RUN DETECTION” and it will start to calibrate the motor. Then you need to wait until the calibration process finished.
 
