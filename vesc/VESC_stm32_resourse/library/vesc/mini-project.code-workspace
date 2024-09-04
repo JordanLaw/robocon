@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../../Desktop/New folder (2)/mini-project"
+		},
+		{
+			"name": "motor",
+			"path": "../.."
+		},
+		{
+			"name": "servo",
+			"path": "../../../servo"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"mstd_atomic": "cpp",
+			"array": "cpp",
+			"string": "cpp",
+			"string_view": "cpp"
+		}
+	}
+}
