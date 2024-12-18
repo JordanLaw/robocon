@@ -176,15 +176,7 @@ So, all together the output will be:
 
 <img src="photo/PID_PID.png" width="350"><br>
 
-For example, there is the difference between before and after PID controller tuned.
 
-Before:
-<img src="photo/PID_value_before_tuning.png" width="1200">
-<img src="photo/PID_plot0_before.png" width="1200">
-
-After:
-<img src="photo/PID_value_after_tuning.png" width="1200">
-<img src="photo/PID_plot01.png" width="1200">
 
 
 #### PID controller tuning
